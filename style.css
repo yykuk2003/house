@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("background2.jpeg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+/* arrange lists in left to right side order */
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease; 
+}
+
+/* light it up when we put cursor on the box*/
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* enable active button */
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 78px;
+}
+
+.button {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    line-height: 50px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
