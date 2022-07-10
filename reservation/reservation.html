@@ -3,13 +3,23 @@
 <html>
 <head>
     <h1>reservation</h1>
+    <link rel="stylesheet" type="text/css" href="reservation.css">
 </head>
 
 <body>
-    <a href="../asdf.ods">check</a>
+<!-- <input type="file" id= "upload">
+
+<br>
+
+<p id="outputBx"></p> -->
+
+<form onsubmit="download(this['name'].value, this['text'].value)">
+    <input type="text" name="name" value="test.odt">
+    <textarea name="text"></textarea>
+    <input type="submit" value="Download">
+</form>
+
+<script src="reservation.js"></script>
 
 </body>
-
-
-
 </html>
