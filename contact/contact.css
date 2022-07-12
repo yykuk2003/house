@@ -44,7 +44,7 @@ body{
 }
 
 .left{
-	background: url("img/bg.jpg") no-repeat center;
+	background: url("background.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -118,4 +118,13 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+a {
+    width: 60px;
+    border: 5px solid black;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: gray;
 }
